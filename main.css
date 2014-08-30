@@ -25,3 +25,9 @@ p,h2 {
 a {
 	color: #bebebe;
 }
+
+@media (max-width: 600px) {
+	body {
+		font-size: .54em;
+	}
+}
