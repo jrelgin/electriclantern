@@ -11,7 +11,9 @@ body {
 	width: 98%;
 }
 h1 {
-	transform: rotate(90deg);
+	-webkit-transform: rotateZ(90deg);
+	-ms-transform: rotateZ(90deg);
+	transform: rotateZ(90deg);
 	font-size: 2em;
 	color: #d4d4d4;
 	float: left;
