@@ -1,2 +1,4 @@
-electriclantern
-===============
+
+# Blog
+
+le electriclantern
