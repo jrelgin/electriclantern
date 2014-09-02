@@ -1,2 +1,7 @@
-_site/
+*.psd
+node_modules
 config.codekit
+electric.sublime-project
+electric.sublime-workspace
+build
+plugins

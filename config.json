@@ -1,0 +1,28 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Electric Lantern",
+    "owner": "Jason Elgin",
+    "description": "all the things"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "wintersmith-livereload",
+    "wintersmith-sass"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
