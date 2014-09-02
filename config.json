@@ -6,7 +6,9 @@
     "description": "all the things"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "wintersmith-livereload",
+    "wintersmith-sass"
   ],
   "require": {
     "moment": "moment",
